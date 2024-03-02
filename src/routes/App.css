@@ -1,0 +1,73 @@
+html{
+  font-size: 62.5%;
+}
+.header{
+  font-size: 1.8rem;
+  gap: 3rem;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: .8rem;
+  width: 15rem;
+}
+.button button{
+  font-size: 1.4rem;
+}
+.app-container{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.sidebar{
+  min-height: 80rem;
+  font-size: 1.8rem;
+}
+.post{
+  font-size: 1.6rem;
+  gap: 1rem;
+}
+.create input{
+  font-size: 1.5rem;
+}
+.create textarea{
+  font-size: 1.5rem;
+}
+.create button{
+  font-size: 1.6rem;
+}
+.footer{
+  font-size: 1.8rem;
+}
+.title{
+  font-size: 2rem;
+}
+.create{
+  font-size: 1.8rem;
+}
+.post-card{
+  margin: 2rem 5rem;
+}
+.hashtag{
+  margin: 0rem .3rem;
+}
+.reactions{
+  margin: 1.5rem 0 0 0;
+}
+.create-post{
+  width: 80%;
+  margin-top: 5rem;
+  margin-left: 10%;
+}
+.welcome-message{
+  margin: 10rem;
+}
+.spinner{
+  margin: 20%;
+}
+@media only screen and (max-width: 550px) and (min-width: 280px) {
+  html{
+    font-size: 32%;
+  }
+}

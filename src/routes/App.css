@@ -66,8 +66,16 @@ html{
 .spinner{
   margin: 20%;
 }
-@media only screen and (max-width: 550px) and (min-width: 280px) {
+@media only screen and (max-width: 550px) and (min-width: 275px) {
   html{
-    font-size: 32%;
+    font-size: 30%;
+  }
+  .sidebar{
+    width: 8rem;
+  }
+}
+@media only screen and (max-width: 665px) and (min-width: 550px) {
+  html{
+    font-size: 35%;
   }
 }

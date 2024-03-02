@@ -68,6 +68,6 @@ html{
 }
 @media only screen and (max-width: 550px) and (min-width: 280px) {
   html{
-    font-size: 32%;
+    font-size: 30%;
   }
 }

@@ -36,7 +36,7 @@ const Sidebar = () => {
         </li>
       </ul>
       <hr />
-      <div className="dropdown">
+      {/* <div className="dropdown">
         <a
           href="#"
           className="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
@@ -77,7 +77,7 @@ const Sidebar = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
